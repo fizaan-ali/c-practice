@@ -1,2 +1,1 @@
-git add . && git commit -m "auto-commit" && git push origin main
-
+git pull origin main --rebase && git add . && git commit -m "Auto update" && git push origin main
