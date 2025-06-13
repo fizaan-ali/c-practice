@@ -1,0 +1,10 @@
+# Binaries
+*.exe
+*.o
+
+# Temporary or editor files
+*~
+*.swp
+
+# Build output directory
+/build/
