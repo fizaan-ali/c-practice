@@ -8,3 +8,5 @@
 
 # Build output directory
 /build/
+# also these files
+*.bat
