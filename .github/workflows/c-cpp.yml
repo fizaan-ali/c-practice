@@ -17,7 +17,7 @@ jobs:
       run: sudo apt update && sudo apt install build-essential -y
 
     - name: Compile C code
-      run: gcc *.c -o app
+      run: gcc evenodd.c -o output
 
-    - name: Run compiled app
-      run: echo "Sample input" | ./app
+    - name: Run compiled output
+      run: echo "Sample input" | ./output
