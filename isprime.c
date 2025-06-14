@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main(){
     int num, isPrime = 1;
     printf("Enter the number: ");
